@@ -16,7 +16,7 @@ typedef struct {
     double BMI;
 }Person; // Creating struct Person
 
-int Erk(int base, int power){
+int Erk(int base, int power){ // Does not represent my current state of mind :)
     int i, adam;
     adam = base;
     if (power == 0) {
