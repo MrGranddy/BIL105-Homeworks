@@ -16,16 +16,16 @@ typedef struct {
     double BMI;
 }Person; // Creating struct Person
 
-int Erk(int base, int power){ // Does not represent my current state of mind :)
-    int i, adam;
-    adam = base;
+int Erk(int base, int power){
+    int i, a;
+    a = base;
     if (power == 0) {
         return 1;
     }
     for (i = 1; i < power; ++i) {
-        adam = adam * base;
+        a = a * base;
     }
-    return adam;
+    return a;
 } // My pow function for powers of 0 and bigger
 
 int StringToInt(char *cs){
